@@ -22,6 +22,7 @@ jobs:
       - travis_retry composer install --prefer-source --no-interaction
       - cp .env.example .env
       - php artisan key:generate
+      - php artisan config:cache
       - vendor/bin/phpunit tests/Feature/ExampleTest.php
     # melakukan build images dan publish ke docker hub
     - stage: "Build Docker Image"
