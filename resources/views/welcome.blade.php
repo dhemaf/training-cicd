@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    I Putu Yuda Danan Jaya
+                    Dhema Alam
                 </div>
 
                 <div class="links">
