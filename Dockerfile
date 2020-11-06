@@ -21,5 +21,6 @@ COPY --chown=app:root . ./
 # Finish composer
 #RUN composer dump-autoload
 RUN composer dump-autoload --no-scripts --no-dev --optimize
+RUN php artisan key:generate
 
 EXPOSE 8080
